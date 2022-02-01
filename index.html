@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+<title>This is a sample template</title>
+<style type="text/css">
+.head h3{
+padding: 1vw 5vw;
+margin: 0;
+font-family: "Times New Roman", serif;
+color: #927592;
+}
+.head h5, .foot h6{
+padding: 1vw 10vw;
+margin: 0;
+font-family: "Courier New", monospace;
+color: #b1b9b2;
+}
+.foot h6{
+text-align: center;
+padding: 0;
+margin: 5vw 0;
+color: #927592;
+}
+.block{
+backgrounf-color: #eff1f2;
+box-shadow: 1vw 1vw 5vw #ededed;
+border-radius: 5vw;
+padding: 1vw;
+margin: 2vw;
+}
+.block blockquote{
+padding: 0 3vw;
+border-left: 1vw #925792 solid;
+font-family: "Courier New", monospace;
+text-align: justify;
+color: #927592;
+}
+.block small{
+font-family: "Times New Roman", serif;
+font-style: oblique;
+}
+</style>
+</head>
+<body>
+<div class="head">
+<h3>Hello World</h3>
+<h5>MPOP Reverse II <label id="time"></label></h5>
+</div>
+<div class="block">
+<blockquote>
+Life sometimes is just a waste of time, if you done nothing.<br>
+<small>- Ulan</small>
+</blockquote>
+</div>
+<div class="foot">
+<h6>Developed under the name of MPOP Reverse II</h6>
+</div>
+</body>
+<script type="text/javascript">
+document.getElementById("time").textContent = "¦ 2017 - " + new Date().getFullYear();
+</script>
+</html>
